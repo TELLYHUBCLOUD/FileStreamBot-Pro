@@ -55,7 +55,7 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://graph.org/file/83133be949adf97c8258f.jpg",
+                photo="https://graph.org/file/8b858bd994ffc0ab466c5.jpg",
                 caption="<i> 💢 ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ 🔐👇🏻</i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -76,7 +76,7 @@ async def start(b, m):
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://graph.org/file/edae8bc953cbef30c4179.jpg",
+        photo ="https://graph.org/file/0ce176bbb4f71e0d85236.jpg",
         caption =f'Hi {m.from_user.mention(style="md")}!,\nɪ ᴀᴍ ᴛᴇʟᴇɢʀᴀᴍ ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ ᴡɪᴛʜ ᴄʜᴀɴɴᴇʟ ꜱᴜᴘᴘᴏʀᴛ.\nꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ ᴀɴᴅ ɢᴇᴛ ᴀ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ᴀɴᴅ ꜱᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ.!',
         reply_markup=buttonz)
 
@@ -103,7 +103,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await StreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="https://telegra.ph/file/ca10e459bc6f48a4ad0f7.jpg",
+                photo="https://graph.org/file/0ce176bbb4f71e0d85236.jpg",
                 Caption="**𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚄𝚂𝙴 ᴛʜɪs Bᴏᴛ!**\n\n__Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
