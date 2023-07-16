@@ -55,7 +55,7 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://telegra.ph/file/9d94fc0af81234943e1a9.jpg",
+                photo="https://graph.org/file/83133be949adf97c8258f.jpg",
                 caption="<i> 💢 ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ 🔐👇🏻</i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
